@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,600;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png">
+
+</head>
+
+<body>
+    <div class="container-contactus">
+
+        <header class="header">
+            <img srcset="imgs/logo-big.png 205w , imgs/logo-small.png 180w" 
+            sizes="(min-width:1024px) 205px, 180px"
+            class="header__logo" src="/imgs/logo-big.png" alt="">
+              
+            <div class="navigation">
+              <input id="navigation__checkbox" class="navigation__checkbox"  type="checkbox">
+              <label class="navigation__button" for="navigation__checkbox">
+                <span class="navigation__line"></span>
+              </label>
+                <nav class="nav-top">
+                    <ul class="nav-top__list">
+                        <li class="nav-top__item"><a class="nav-top__link" href="">Home Page</a></li>
+                        <li class="nav-top__item"><a class="nav-top__link" href="">About Us</a></li>
+                        <li class="nav-top__item"><a class="nav-top__link" href="">References</a></li>
+                        <li class="nav-top__item"><a class="nav-top__link" href="">Contact</a></li>
+                        <li class="nav-top__item"><a class="nav-top__link" href="">Blog</a></li>
+                        <li class="nav-top__item"><a class="nav-top__link" href="">Our services</a></li>
+                        <li class="nav-top__item"><a class="nav-top__link" href="">Main Page</a></li>
+                    </ul>
+                    <button class="button"><span>Login</span><span>Login</span></button>
+                </nav>
+                
+                <nav class="nav-bottom">
+                  <ul class="nav-bottom__list">
+                      <li class="nav-bottom__item"><a class="nav-bottom__link" href="">Home Page</a></li>
+                      <li class="nav-bottom__item"><a class="nav-bottom__link" href="">About Us</a></li>
+                      <li class="nav-bottom__item"><a class="nav-bottom__link" href="">References</a></li>
+                      <li class="nav-bottom__item"><a class="nav-bottom__link" href="">Contact</a></li>
+                      <li class="nav-bottom__item"><a class="nav-bottom__link" href="">Blog</a></li>
+                      <li class="nav-bottom__item"><a class="nav-bottom__link" href="">Our services</a></li>
+                      <li class="nav-bottom__item"><a class="nav-bottom__link" href="">Main Page</a></li>
+                  </ul>
+                  <button class="button button--middle"><span>Login</span><span>Login</span></button>
+              </nav>
+            </div>
+
+            <div class="header__social-nav">
+                <nav class="social-nav">
+                    <ul class="social-nav__list">
+                        <li>
+                            <a href="" class="social-nav__link">
+                                <svg class="social-nav__icon">
+                                    <use xlink:href="imgs/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="social-nav__link">
+                                <svg class="social-nav__icon">
+                                    <use xlink:href="imgs/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="social-nav__link">
+                                <svg class="social-nav__icon">
+                                    <use xlink:href="imgs/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="social-nav__link">
+                                <svg class="social-nav__icon">
+                                    <use xlink:href="imgs/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="social-nav__link">
+                                <svg class="social-nav__icon">
+                                    <use xlink:href="imgs/sprite.svg#google-plus"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+            </div>
+
+            </nav>
+
+
+
+        </header>
+
+        <div class="contactus">
+            <div class="contactus__left">
+                <form class="form" action="">
+                    <h1 class="form__heading">Contact Us</h1>
+                    <input class="form__input" placeholder="Name And Surname" required type="text">
+                    <input class="form__input" placeholder="E-mail" type="email">
+                    <input class="form__input" placeholder="Phone Number" type="tel">
+                    <textarea class="form__input  form__messege " name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+                    <button class="button button--middle" type="submit"><span>Send</span><span>Send</span></button>
+                </form>
+            </div>
+            <div class="contactus__right">    <div class="contact-info">
+                <ul class="contact-info__list contact-info__list--vertical  contact-info--vertical">
+                  <li class="contact-info__item">
+                    <svg class="contact-info__icon">
+                      <use xlink:href="imgs/sprite.svg#pin"></use>
+                    </svg>
+                    <span>Kadıköy / ISTANBUL</span>
+                  </li>
+                  <li class="contact-info__item">
+                    <svg class="contact-info__icon">
+                      <use xlink:href="imgs/sprite.svg#call"></use>
+                    </svg>
+                    <span>0216 444 22 11</span>
+                  </li>
+                  <li class="contact-info__item">
+                    <svg class="contact-info__icon">
+                      <use xlink:href="imgs/sprite.svg#smartphone"></use>
+                    </svg>
+                    <span>0544 444 22 11</span>
+                  </li>
+                  <li class="contact-info__item">
+                    <svg class="contact-info__icon">
+                      <use xlink:href="imgs/sprite.svg#mail"></use>
+                    </svg>
+                    <span>mercansoft@mercansoft.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+  
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
